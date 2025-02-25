@@ -21,3 +21,5 @@ smoke-tests/smoke_tests_output.log
 use-cases/gst_capi/helm/kubernetes/
 use-cases/gst_capi/helm/models-downloader/
 use-cases/gst_capi/helm/pipelines/
+
+!use-cases/continual_learning/models

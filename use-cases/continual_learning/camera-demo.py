@@ -1,8 +1,3 @@
-#
-# Copyright (C) 2024 Intel Corporation.
-#
-# SPDX-License-Identifier: Apache-2.0
-#
 
 #!/usr/bin/env python
 import io
@@ -16,13 +11,13 @@ import operator
 import numpy as np
 import cv2
 from config import IMG_AUGMENT_LAYERS
-from model.slda import SLDA
+from models.slda import SLDA
 
 # Config/Options
 from config import IMG_AUGMENT_LAYERS
 
 # Model/Loss definitions
-from model.utils import extract_features
+from models.utils import extract_features
 
 # Dataset handling (synthesize/build/query)
 from lib.dataset.utils import as_tuple, get_label_distribution
